@@ -17,4 +17,5 @@ int main(){
         }
     }
     cout << "The sum of odd numbers from " << a << " to " << n << " is: " << sum << endl;
+    return 0;
 }
