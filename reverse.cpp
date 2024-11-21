@@ -4,9 +4,7 @@ using namespace std;
 int reverse(int n[], int size) {
     int i = 0, j = size - 1;
     while (i < j) {
-        int temp = n[i];
-        n[i] = n[j];
-        n[j] = temp;
+        swap(n[i], n[j]);
         i++;
         j--;
     }
